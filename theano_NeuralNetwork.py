@@ -53,3 +53,4 @@ for i in range(training_steps):
      prediction, error = train(D[0], D[1])
      
 print "Accuracy after Training:", sklearn.metrics.accuracy_score(D[1],numpy.array(predict(D[0])).ravel())
+#
