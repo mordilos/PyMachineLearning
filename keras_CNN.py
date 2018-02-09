@@ -75,26 +75,3 @@ model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=nb_epoch, verbose=1,
 score = model.evaluate(X_test, Y_test, verbose=0)
 print "Test Metrics:", zip(model.metrics_names, score)
 plot_model(model, to_file='s7.png', show_shapes=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
